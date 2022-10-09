@@ -1,3 +1,21 @@
 h1 {
-  color: blue;
+  color: rgb(55, 55, 137);
+}
+.sunny {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  width: 5%;
+  height: auto;
+}
+
+.codeLink {
+  text-decoration: none;
+  font-size: xx-small;
+  color: rgb(131, 132, 150);
+}
+
+a:hover {
+  color: hotpink;
 }
