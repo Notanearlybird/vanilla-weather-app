@@ -11,7 +11,7 @@
     />
     <title>VanillaWeatherApp</title>
   </head>
-  <body>
+  <body class="weatherApp">
     <div class="container">
       <h1>New York, USA</h1>
       <ul>
@@ -20,7 +20,8 @@
       </ul>
       <div class="row">
         <div class="col-md-6">
-          12°C|°F <img class="sunny" src=src/sunny.png alt="Sunny"/>
+          <p class="temp">12°C|°F</p>
+          <img class="sunny" src=src/sunny.png alt="Sunny"/>
           <!-- Sunny icon created by Smashicons  -->
         </div>
         <div class="col-md-6">
@@ -31,11 +32,12 @@
           </ul>
         </div>
         <div>
-          
-            <a class="codeLink" href="https://github.com/Notanearlybird/vanilla-weather-app">
+          <a
+            class="codeLink"
+            href="https://github.com/Notanearlybird/vanilla-weather-app"
+          >
             Open-source code by Notanearlybird
-            </a>
-          
+          </a>
         </div>
       </div>
       <script src="src/app.js"></script>
