@@ -1,12 +1,11 @@
 h1 {
   color: rgb(55, 55, 137);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 3px;
-  text-align: left;
+  margin-left: 30px;
 }
-
 .sunny {
   position: -webkit-sticky;
   top: 8px;
@@ -15,13 +14,11 @@ h1 {
   width: 40%;
   height: auto;
 }
-
 .codeLink {
   text-decoration: none;
   font-size: xx-small;
   color: rgb(131, 132, 150);
 }
-
 a:hover {
   color: hotpink;
 }
@@ -36,7 +33,7 @@ a:hover {
 li {
   list-style-type: none;
   color: rgb(30, 30, 151);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: 2px;
@@ -45,8 +42,10 @@ li {
 .temp {
   color: rgb(30, 30, 151);
   font-size: 28px;
+  margin-left: 30px;
 }
 ul {
+  text-align: left;
   margin: 0;
   padding: 0;
 }
