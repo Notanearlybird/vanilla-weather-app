@@ -32,7 +32,9 @@ a:hover {
   border: 2px solid #676b9c;
   border-radius: 7px;
 }
+
 li {
+  list-style-type: none;
   color: rgb(30, 30, 151);
   font-size: 16px;
   font-weight: 300;
@@ -42,8 +44,12 @@ li {
 }
 .temp {
   color: rgb(30, 30, 151);
+  font-size: 28px;
 }
-.ul {
+ul {
   margin: 0;
   padding: 0;
+}
+.pict img {
+  margin-right: 20px;
 }
